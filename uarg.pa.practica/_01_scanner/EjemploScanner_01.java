@@ -9,7 +9,7 @@ public class EjemploScanner_01 {
 
         System.out.print("¿Cuántos años tenes? ");
         int edad = scanner.nextInt();
-        scanner.nextLine(); // Limpia el buffer
+        scanner.nextLine(); //        Limpia el buffer
 
         System.out.print("¿Cuál es tu altura? ");
         double altura = scanner.nextDouble();

@@ -41,6 +41,7 @@ public class Libro {
     public String toString() {
         return "Libro: " + titulo + " de " + autor + ", " + anioPublicacion + ", " + paginas + " páginas";
     }
+    public String getTitulo(){return titulo;}
 
     // Main para prueba
     public static void main(String[] args) {
@@ -52,5 +53,6 @@ public class Libro {
         System.out.println(l3 + ", ¿Reciente? " + l3.esReciente());
         l1.actualizarAnio(2020);
         System.out.println("Actualizado: " + l1);
+        l1.getTitulo();
     }
 }

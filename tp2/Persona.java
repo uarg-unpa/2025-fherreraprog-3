@@ -1,4 +1,4 @@
-package tp1.tp2;
+package tp2;
 
 public class Persona {
 //Atributos

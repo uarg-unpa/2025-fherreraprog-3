@@ -48,7 +48,10 @@ public class Persona {
 
     // Método esMayorDeEdad
     public boolean esMayorDeEdad() {
-        return edad >= 18; //avanzado pero lo dejo para que sus cerebros se activen 
+        if (edad >= 18)
+            return true;
+        else    
+            return false; //avanzado pero lo dejo para que sus cerebros se activen 
     }
 
     // Método privado para validar sexo

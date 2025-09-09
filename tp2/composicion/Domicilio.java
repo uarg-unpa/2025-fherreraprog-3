@@ -13,6 +13,7 @@ public class Domicilio {
             this.numero = numero;
         }
     }
+    //get y set
 
     public boolean esCompleto() {
         if (!calle.isEmpty() && numero > 0)

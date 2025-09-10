@@ -15,6 +15,8 @@ public class Persona {
     this.dni=dni;
   }
 //metodos gets y sets
+
+  public int getDni(){return dni;}
   public String getNombre(){
     return this.nombre;
   }

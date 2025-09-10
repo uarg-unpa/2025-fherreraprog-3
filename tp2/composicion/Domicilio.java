@@ -4,6 +4,7 @@ public class Domicilio {
     private String calle;
     private int numero;
 
+    ///cambios 
     public Domicilio(String calle, int numero) {
         if (calle != null && !calle.trim().isEmpty()) {
             this.calle = calle;

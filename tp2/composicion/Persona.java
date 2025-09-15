@@ -63,6 +63,8 @@ public class Persona {
 
     }
 
+    public Domicilio getDomicilio(){return domicilio;}
+
     // toString
     
     public String toString() {

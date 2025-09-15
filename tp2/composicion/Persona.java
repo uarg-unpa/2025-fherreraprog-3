@@ -74,4 +74,23 @@ public class Persona {
     public String infoDomicilio() {
         return "Domicilio de " + nombre + ": " + domicilio + ". ¿Completo? " + domicilio.esCompleto();
     }
+
+    // Método que compara si dos domicilios tienen la misma calle
+    public boolean vivenEnLaMismaCalle(Domicilio otroDomicilio) {
+    // Obtenemos la calle del domicilio de la persona (this.domicilio)
+    String callePersona = this.domicilio.getCalle();
+
+    // Obtenemos la calle del domicilio que recibimos como parámetro
+    String calleOtraPersona = otroDomicilio.getCalle();
+
+    // Comparamos si las dos calles son iguales
+    if (callePersona.equals(calleOtraPersona)) {
+        // Si son iguales, significa que viven en la misma calle
+        return true;
+    } else {
+        // Si no son iguales, viven en calles distintas
+        return false;
+    }
+}
+
 }

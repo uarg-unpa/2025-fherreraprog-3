@@ -15,6 +15,8 @@ public class Domicilio {
         }
     }
 
+    public String getCalle(){return calle;}
+
     public boolean esCompleto() {
         if (!calle.isEmpty() && numero > 0)
             return true;

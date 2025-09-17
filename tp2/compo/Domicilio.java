@@ -1,4 +1,4 @@
-package tp2.composicion;
+package tp2.compo;
 
 public class Domicilio {
     private String calle;

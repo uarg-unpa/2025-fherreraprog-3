@@ -60,7 +60,7 @@ public class Coleccion {
     // Representación en texto de la colección
     @Override
     public String toString() {
-        String texto = "Colección (" + actual + " elementos): ";
+        String texto = "Colección (" +elementos.length+" "+ actual + " elementos): ";
         for (int i = 0; i < actual; i++) {
             texto += elementos[i] + " ";
         }

@@ -47,7 +47,7 @@ public class MenuPila {
                     System.out.println("¿Vacía? " + pila.estaVacia() + " | ¿Llena? " + pila.estaLlena());
                     break;
 
-                case 0: // Salir
+                case 0: // Salir cambios
                     System.out.println("Saliendo...");
                     break;
 

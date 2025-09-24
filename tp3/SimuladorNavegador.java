@@ -41,6 +41,15 @@ public class SimuladorNavegador {
                 case 3:
                     System.out.println(historial);
                     break;
+                case 4:
+                {
+                    while (!historial.estaVacia()) {
+                        System.out.println("Pagina visitada:" +historial.sacar() );
+        
+                        }
+
+
+                }break;
                 case 0:
                     System.out.println("Cerrando navegador...");
                     break;
@@ -60,7 +69,7 @@ public String elementoCima() {
 }
 
 public String vaciarPila() {
-    if (estaVacia()) return "Pila vacía";
+    
     String resultado = "Historial vaciado: ";
     while (!estaVacia()) {
         resultado += paginas[cima] + " ";

@@ -13,7 +13,8 @@ public class Historial {
     public boolean estaVacia() { 
         if (cima == -1)
             return true;
-        return false;
+        else
+            return false;
      }
     public boolean estaLlena() { return cima == MAX - 1; }
     public void meter(String pagina) {
@@ -24,11 +25,10 @@ public class Historial {
             return paginas[cima--];
     }
 
-    public String toString() {
-    if (estaVacia()) return "Historial vacío";
-    String s = "Historial: ";
-    for (int i = 0; i <= cima; i++) s += paginas[i] + " ";
-        return s.trim();
-    }
+public String toString() {
+    return "Pila con " + (cima + 1) + " elemento(s)";
+}
+
+
 }
   

@@ -23,5 +23,12 @@ public class Historial {
     public String sacar() {
             return paginas[cima--];
     }
+
+    public String toString() {
+    if (estaVacia()) return "Historial vacío";
+    String s = "Historial: ";
+    for (int i = 0; i <= cima; i++) s += paginas[i] + " ";
+        return s.trim();
+    }
 }
   

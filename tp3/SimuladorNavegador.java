@@ -50,3 +50,21 @@ public class SimuladorNavegador {
         sc.close();
     }
 }
+/*@Override
+public String toString() {
+    return "Pila con " + (cima + 1) + " elemento(s)";
+}
+
+public String elementoCima() {
+    return paginas[cima];
+}
+
+public String vaciarPila() {
+    if (estaVacia()) return "Pila vacía";
+    String resultado = "Historial vaciado: ";
+    while (!estaVacia()) {
+        resultado += paginas[cima] + " ";
+        cima--;
+    }
+    return resultado.trim();
+}*/

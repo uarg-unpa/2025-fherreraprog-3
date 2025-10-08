@@ -2,7 +2,6 @@ public class ColaInt {
     // [Resto de la clase como antes]
 
     public int peek() {
-        if (estaVacia()) return -1; // Asumimos validación externa, pero un check básico
 
         ColaInt auxiliar = new ColaInt(); // Estructura auxiliar
         int frente = desencolar(); // Extraemos el frente (altera la cola)

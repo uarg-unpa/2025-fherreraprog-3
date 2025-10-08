@@ -52,9 +52,9 @@ public class MainColaNombres {
                         System.out.println("Estado: La cola está vacía.");
                     } else if (cola.estaLlena()) {
                         System.out.println("Estado: La cola está llena.");
-                    } else {
-                        System.out.println("Estado: La cola tiene aproximadamente " + (cola.estaLlena() ? 9 : (cola.fin - cola.frente + (cola.fin < cola.frente ? 10 : 0)) % 10) + " estudiante(s).");
-                    }
+                    } //else {
+                       // System.out.println("Estado: La cola tiene aproximadamente " + (cola.estaLlena() ? 9 : (cola.fin - cola.frente + (cola.fin < cola.frente ? 10 : 0)) % 10) + " estudiante(s).");
+                    //}
                     break;
                 case 0:
                     System.out.println("Saliendo del programa...");

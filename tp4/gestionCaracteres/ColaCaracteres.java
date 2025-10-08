@@ -13,6 +13,10 @@ public class ColaCaracteres {
         fin = 0;
     }
 
+    public int getFin(){
+        return fin;
+    }
+
     public boolean estaVacia() {
         return fin == 0;
     }

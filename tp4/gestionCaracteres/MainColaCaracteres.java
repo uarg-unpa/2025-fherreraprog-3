@@ -51,7 +51,7 @@ public class MainColaCaracteres {
                     } else if (cola.estaLlena()) {
                         System.out.println("Estado: La cola está llena.");
                     } else {
-                        System.out.println("Estado: La cola tiene " + cola.fin + " comando(s).");
+                        System.out.println("Estado: La cola tiene " + cola.getFin() + " comando(s).");
                     }
                     break;
                 case 0:

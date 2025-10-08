@@ -1,6 +1,5 @@
 package tp4.gestionDeNombres;
 
-
 public class ColaNombres {
     private String[] elementos;
     private int frente;
@@ -23,7 +22,7 @@ public class ColaNombres {
 
     public void encolar(String elem) {
         elementos[fin] = elem;
-        fin = (fin + 1) % MAX;
+        fin = (fin + 1) % MAX;// se puede utilizar siguiente.
     }
 
     public String desencolar() {

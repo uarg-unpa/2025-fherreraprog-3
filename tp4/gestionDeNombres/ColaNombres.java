@@ -4,7 +4,7 @@ public class ColaNombres {
     private String[] elementos;
     private int frente;
     private int fin;
-    private final int MAX = 10;
+    private final int MAX = 5;
 
     public ColaNombres() {
         elementos = new String[MAX];

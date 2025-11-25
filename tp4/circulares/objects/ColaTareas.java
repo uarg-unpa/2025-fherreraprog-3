@@ -27,8 +27,9 @@ public class ColaTareas {
         fin = (fin + 1) % MAX;
     }
 
-    public Tarea desencolar() {
-        Tarea aux = elementos[frente];
+    public Auto desencolar(String matricula) {
+        Auto aux = elementos[frente];
+        
         frente = (frente + 1) % MAX;
         return aux;
     }

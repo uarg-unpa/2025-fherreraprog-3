@@ -24,6 +24,7 @@ public class MainColaNombres {
                 case 1:
                     System.out.print("Ingrese el nombre del estudiante: ");
                     String nombre = sc.nextLine();
+                    String 
                     if (cola.estaLlena()) {
                         System.out.println("Error: La cola está llena (máximo 9 estudiantes).");
                     } else {

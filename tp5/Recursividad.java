@@ -6,7 +6,9 @@ public class Recursividad {
 
   //System.out.println(puzzle(4,7));
   //System.out.println(concurso(0,3);
-    System.out.println(factorial(4));
+   // System.out.println(factorial(4));
+   int [] a={1,2,3,4,5};
+    System.out.println(ocurrencias(a,5,0));
   }
 
   public static int puzzle(int base, int limite){
